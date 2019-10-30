@@ -40,8 +40,6 @@ public class AirportTest {
         List<MilitaryPlane> transportMilitaryPlanes = airport.getTransportMilitaryPlanes();
         for (MilitaryPlane militaryPlane : transportMilitaryPlanes) {
             assert  (militaryPlane.getType() == MilitaryType.TRANSPORT);
-        }
-        Assert.assertTrue(hasTransportMilitaryPlane);
     }
 
     @Test
